@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>Date Your Professor</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main>
+            <div class="moving-checkered"></div>
+            <div class="center">
+                <div class="container-normal" id="containerNormal">
+                    <h1>Date your Professor</h1>
+                    <img src="" alt="teacher" id="professorImage">
+                    
+                    <div class="game-stats">
+                        <h3 class="guesses-left" id="guessesLeft">Guesses Left:</h3>
+                        <div class="more-info">
+                            <div class="dropdown">
+                                <li id="Name">Name: </li>
+                                <li id="Department">Department: </li>
+                            </div>
+                            <a><u><h3>Info</h3></u></a>
+                        </div>
+                    </div>
+                    <div class="inputs">
+                        <div class="date">
+                            <div class="years-container">
+                                <input type="number" class="years" id="guessYear">
+                                <label for="age">Years</label>
+                            </div>
+                            <div class="months-container">
+                                <input type="number" class="months" id="guessMonth">
+                                <label for="age">Months</label>
+                            </div>
+                            <div class="days-container">
+                                <input type="number" class="days" id="guessDay">
+                                <label for="age">Days</label>
+                            </div>
+                        </div>
+                        <button id="guessButton">Rizz?</button>
+                    </div>
+                </div>
+                <div class="container-win" id="containerWin">
+                    <h1>Date your Professor</h1>
+
+                    <img src="" alt="teacher" id="professorImageWin">
+                    <p>Wow, you know me so well!  I just wanted to take a moment to remind you how impressive it is to guess someone’s age correctly. It’s not just about the numbers; it shows your keen observation skills and understanding of people.</p>
+                    
+                    <button id="winGuessButton">Press Your Luck?</button>
+                </div>
+                <div class="container-too-high" id="containerTooHigh">
+                    <h1>Date your Professor</h1>
+
+                    <img src="" alt="teacher" id="professorImageHigh">
+                    <p>I’m reaching to you out of sheer frustration. Recently, your comments about my age have been not only rude but also completely uncalled for. I AM NOT THAT OLD!!</p>
+                    <div class="guess-info" id="moreInfoHigh">
+                        <h3 id="yearsInfoTooHigh">Years: </h3>
+                        <h3 id="monthsInfoTooHigh">Months: </h3>
+                        <h3 id="daysInfoTooHigh">Days: </h3>
+                    </div>
+
+                    <button id="highGuessButton">Guess Again?</button>
+                </div>
+                <div class="container-too-low" id="containerTooLow">
+                    <h1>Date your Professor</h1>
+
+                    <img src="" alt="teacher" id="professorImageLow">
+                    <p>I can’t believe you thought I was much younger than I actually am! It’s incredibly frustrating to be judged so inaccurately. I AM NOT THAT YOUNG!!</p>
+                    
+                    <div class="guess-info" id="moreInfoHigh">
+                        <h3 id="yearsInfoTooLow">Years: </h3>
+                        <h3 id="monthsInfoTooLow">Months: </h3>
+                        <h3 id="daysInfoTooLow">Days: </h3>
+                    </div>
+
+                    <button id="lowGuessButton">Guess Again?</button>
+                </div>
+                <div class="container-lose" id="containerLose">
+                    <h1>Date your Professor</h1>
+
+                    <img src="" alt="teacher" id="professorImageLose">
+                    <p>You've truely disappointed me.</p>
+                    <button id="loseGuessButton">Try Again?</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>
